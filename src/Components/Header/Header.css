@@ -1,0 +1,31 @@
+.Header {
+    width: 100vw;
+    height: 100px;
+    background-color: #263E60;
+}
+
+.logocontainer {
+    margin-left: 58px;
+    margin-top: 10px;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LogOut {
+    font-family: Calibri;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 84px;
+    color: white;
+    margin-right: 101px;
+    cursor: pointer;
+}

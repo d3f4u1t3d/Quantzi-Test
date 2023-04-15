@@ -1,0 +1,14 @@
+.LoginInputBox {
+    height: 64px;
+    width: 588px;
+    border-radius: 16px;
+    padding-left: 30px;
+    border: 1px solid #505050;
+    font-size: 20px;
+    font-family: Calibri;
+
+}
+
+.InputBox {
+    padding-bottom: 15px;
+}

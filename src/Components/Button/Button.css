@@ -1,0 +1,11 @@
+.LoginButton {
+    background-color: #FF7D65;
+    color: #FFFFFF;
+    width: 618px;
+    height: 64px;
+    border-radius: 16px;
+    border: none;
+    font-size: 36px;
+    font-family: Calibri;
+    cursor: pointer;
+}
