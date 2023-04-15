@@ -27,9 +27,14 @@
 }
 
 .TextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     width: 80%;
+
 }

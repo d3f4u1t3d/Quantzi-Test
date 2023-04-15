@@ -5,13 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import "./Login.css";
 
-import axios from "axios";
-
-import {
-  validateEmail,
-  validatePassword,
-  validateUsername,
-} from "../../Helper/Validate";
+import { validatePassword, validateUsername } from "../../Helper/Validate";
 import { Navigate } from "react-router-dom";
 
 import Header from "../../Components/Header/Header";
@@ -140,7 +134,7 @@ function Login() {
           </div>
         </div>
       </div>
-      {navigate && <Navigate to="/" replace={true} />}
+      {navigate && <Navigate to="/home" replace={true} />}
     </>
   );
 }
