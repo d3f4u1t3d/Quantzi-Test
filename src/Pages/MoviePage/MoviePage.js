@@ -27,6 +27,7 @@ function MoviePage() {
   const toggleModal = () => {
     setShowModal(true);
   };
+  document.title = movieObject.title;
 
   return (
     <div className="Wrapper">

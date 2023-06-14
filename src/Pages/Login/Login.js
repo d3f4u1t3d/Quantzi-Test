@@ -25,6 +25,9 @@ function Login() {
     setFormData({ ...formData, [name]: value });
   };
 
+  console.log(`username:quantzi-test`);
+  console.log(`password:randompassword1234`);
+
   const valdation = (value) => {
     if (validateUsername(value.userName)) {
       if (validatePassword(value.password)) {
@@ -133,6 +136,7 @@ function Login() {
             </form>
           </div>
         </div>
+        <div className="abs">Check Console for Login Credentials</div>
       </div>
       {navigate && <Navigate to="/home" replace={true} />}
     </>

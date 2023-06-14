@@ -1,46 +1,51 @@
 @font-face {
-    font-family: Calibri;
-    src: url(../../Assets/calibri-regular.ttf);
+  font-family: Calibri;
+  src: url(../../Assets/calibri-regular.ttf);
 }
 
-
 .MainContainer {
-    width: 100vw;
-    height: 100vh;
-    background-color: Black;
-    display: flex;
-    flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: Black;
+  display: flex;
+  flex-direction: column;
 }
 
 .MainContent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .container {
-    background-color: #fff;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
 }
 
 .LoginHeader {
-    font-family: Calibri;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 24px;
-    padding-bottom: 20px;
-    color: #28261F;
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  color: #28261f;
 }
 
 .LoginSubtext {
-    font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 
-    font-size: 16px;
-    color: #505050;
-    padding-bottom: 34px;
+  font-size: 16px;
+  color: #505050;
+  padding-bottom: 34px;
+}
+
+.abs {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
 }
